@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Mulish:wght@300&display=swap');
+
+* {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: normal;
+  font-size: 10pt;
+}
+
+.navbar {
+  margin: 10px 35px 0px 35px;
+}
+
+.navbar-item {
+  font-size: 10pt;
+  letter-spacing: 0.075em;
+}
+
+.brand {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-family: 'Mulish', sans-serif;
+  font-size: 13pt;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-image {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  color: transparent;
+  height: 504;
+  width: 438;
+}
+
+.gradientapply {
+  z-index: 2;
+}
+
+.card-image:hover {
+  color: white;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.52), rgba(205, 0, 0, 0.879));
+  z-index: 1;
+}
+
+@import '~bulma/bulma.sass';
